@@ -1,13 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/54/54560.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Akshata Portfolio</title>
 </head>
 <body>
-	<h1>Hello World</h1>
-	<h2>Bye World</h2>
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <a class="navbar-brand" href="#" ><span class="brand tracking-in-expand">Akshata</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home"><span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects"><span class="navmenu">Projects</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact"><span class="navmenu">Contact</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <!-- nav bar ends here -->
 
+   <div class="main-container">
+
+    <section id="home" class="portfolio-sections">
+        <div id="home-info">
+            <span class="info">Hi </span><br/>
+            <span class="info">My name is </span><br>
+            <span class="brand myname">Akshata</span><br>
+            <span class="info">I am <span class="designation">Full Stack Developer</span></span>
+            <button href="demo.pdf" class="rsmbtn">RESUME</button>
+        </div>
+    </section>
+
+    <section id="about" class="portfolio-sections about-section">
+        <div class="aboutmain">
+            <div class="myimage">
+                <img class="logo" src=https://cdn-icons-png.flaticon.com/512/1183/1183931.png>
+            </div> 
+            <div class="carrerobj">
+                <h1 class="heading">ABOUT</h1>
+                <p class="carrer-info">
+                    Aspiring for the job role of full stack developer at your company which would provide me with ample opportunities to showcase my technical abilities while working on projects & tasks assigned by you or your team members.
+                </p>
+            </div>
+        </div>       
+    </section>
+
+    <section id="skills" class="portfolio-sections skill-section">
+        <h1 class="heading">SKILLS</h1>
+        <table class="tbl" height="200px"  width="90%" cellpadding="50px">
+            <tr align="center" valign="top">
+
+                <div class="borderskills">
+                    <td data-aos="slide-right">
+                        <h2 class="skills-subheading">Languages</h2>
+                        <p class="detailedSkills">
+                            Core Java, HTML, CSS
+                        </p>
+                    </td>
+                </div>
+
+                <div class="borderskills">
+                    <td data-aos="slide-right">
+                        <h2 class="skills-subheading">Tools</h2>
+                        <p class="detailedSkills">
+                            Eclipse IDE, Github, MySql
+                        </p>
+                    </td>
+                </div>
+
+                <div class="borderskills">
+                    <td data-aos="slide-left">
+                        <h2 class="skills-subheading">Operating System</h2>
+                        <p class="detailedSkills">
+                            Windows, Android, Linux
+                        </p>
+                    </td>
+                </div>
+            </tr>
+
+        </table>
+    </section>
+
+    <section id="projects" class="portfolio-sections">
+        <h1 class="heading" align="center">PROJECTS</h1>
+                <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://partheniumprojects.com/wp-content/uploads/2018/12/Canteen-automation-system-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Automated Canteen Ordering System</h5>
+                <p class="card-text">This android application will allow college canteens, hotels and restaurants to increase scope of business by reducing the labor cost involved. The canteen admin can add menus and take orders with the application. The application allows customer to place orders with just few clicks.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://www.circuitbasics.com/wp-content/uploads/2015/09/Make-an-Arduino-Temperature-Sensor-Thermistor-Tutorial-LCD-Output-of-Temperature-Readings.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Temperature Monitoring System Using Arduino </h5>
+                <p class="card-text">This project is aimed to develop the temperature monitoring system which continuously monitors the temperature of the atmosphere. This application especially used for businesses and organizations within the healthcare, food products, and electronics sectors.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://ohioline.osu.edu/sites/ohioline/files/imce/Food_Agricultural_and_Biological_Engineering/FABE-532-Fig1-Tractor-Spraying-Field.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pesticide Recommendation System </h5>
+                <p class="card-text">This project is aimed to develop an application that can detect disease in plant and also provide the solution against the disease.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://agritimes.co.in/assets/images/csc-spv-launches-agri-services-e-marketplace-portal-english.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Application for Agri Auction</h5>
+                <p class="card-text">This project aims to successfuly define a new concept of farmers directly selling its stocks to the customers and customers buying from the farmers directly through a virtual intermediary.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="portfolio-sections">
+        <h1 class="heading">CONTACT</h1>
+        <div class="contact-container"></div>
+        <form class="contact-left">
+            <label>Your Name</label>
+            <input type="text" name="" class="contact-inputs">
+            <br>
+            <label>Your Email</label>
+            <input type="Email" name="" class="contact-inputs">
+            <br>
+            <label>Your Message</label>
+            <textarea class="contact-inputs"></textarea>
+            <br>
+            <button id="button" type="submit">Submit</button>
+        </form>
+       
+
+    </section>
+
+   </div>
+    
 </body>
 </html>
+
+
+
+
+<label>Your Name</label>
+            <input type="text" name="">
+            <label>Email</label>
+            <input type="Email" name="">
